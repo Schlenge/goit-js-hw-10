@@ -1,0 +1,57 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  background: #dfd4bd;
+}
+
+img {
+  padding-top: 16px;
+  width: 500px;
+}
+
+.breed-select {
+  font-size: 20px;
+  color: #69673d;
+  width: 500px;
+  height: 64px;
+  font-weight: 500;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.error {
+  padding: 16px;
+  background-color: #5b552d;
+  width: 70%;
+  padding: 16px;
+  font-size: 20px;
+  color: #e8ecef;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.loader {
+  width: 500px;
+  padding: 16px;
+  font-size: 20px;
+  color: #482f17;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cat-info.hidden {
+  display: none;
+}
+
+.cat-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  color: #2d2126;
+  padding-left: 20px;
+}
